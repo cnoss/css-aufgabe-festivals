@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button, input, textarea {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none; }
+  button:active, button:focus, input:active, input:focus, textarea:active, textarea:focus {
+    box-shadow: none;
+    border: solid 1px transparent;
+    outline-color: transparent;
+    outline-style: none; }
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../assets/fonts/Lato/Lato-Light.ttf); }
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Lato/Lato-Regular.ttf); }
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../assets/fonts/Lato/Lato-Bold.ttf); }
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/Lato/Lato-Black.ttf); }
+
+@font-face {
+  font-family: Beanie;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../assets/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf); }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.eot");
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.woff2") format("woff2"), url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.woff") format("woff"), url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.ttf") format("truetype"); }
+
+/* Sizes
+Using Renard R'10, 1.00, 1.25, 1.60, 2.00,  2.50, 3.15, 4.00
+---------------------------------------------------------------------------- */
+/* Font Properties
+---------------------------------------------------------------------------- */
+/* Font Weights
+---------------------------------------------------------------------------- */
+/* Line Heights
+---------------------------------------------------------------------------- */
+/* Base Colors
+---------------------------------------------------------------------------- */
+/* Functional Colors
+---------------------------------------------------------------------------- */
+/* Transitions
+---------------------------------------------------------------------------- */
+/* Viewports
+---------------------------------------------------------------------------- */
+/* Misc
+---------------------------------------------------------------------------- */
+.icon {
+  height: auto;
+  width: auto;
+  font-family: "Material Icons";
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: inherit;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga'; }
+
+.icon--s {
+  font-size: 16px;
+  line-height: 16px; }
+
+.icon--m {
+  font-size: 20px;
+  line-height: 20px; }
+
+.icon--l {
+  font-size: 25px;
+  line-height: 25px; }
+
+.icon--xl {
+  font-size: 31.5px;
+  line-height: 31.5px; }
+
+.icon.md-dark {
+  color: #000; }
+
+.icon.md-light {
+  color: #fff; }
+
+.icon:before {
+  content: attr(data-icon); }
+
+.icon.red {
+  color: red; }
+
+.icon {
+  font-family: "Material Icons";
+  text-transform: none; }
+
+.icon--inline {
+  margin-right: 0.4em;
+  font-size: 20px; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 300;
+  hyphens: auto;
+  color: #333;
+  background-color: #ddd; }
+
+/* Headlines
+############################################################################ */
+/* Images
+############################################################################ */
+img {
+  width: 100%; }
+
+/* Linklist
+############################################################################ */
+.linklist__item {
+  font-family: 'Material Icons';
+  line-height: 130%;
+  margin-left: 20px; }
+  .linklist__item:before {
+    font-size: 12.5px;
+    display: inline-block;
+    margin-left: -20px;
+    padding-right: 10px;
+    content: 'link'; }
+  .linklist__item > a {
+    font-family: Lato; }
+
+.test {
+  background-color: red; }
+
+/*# sourceMappingURL=main.css.map */

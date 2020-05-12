@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: $font-family-sans;
+  font-size: $base-font-size;
+  line-height: $lh-default;
+  font-weight: $fw-light; 
+  hyphens: auto;
+  color:$text-color;
+  background-color: $light;
+}
+
+
+/* Headlines
+############################################################################ */
+
+
+
+/* Images
+############################################################################ */
+
+img{
+  width: 100%;
+}
